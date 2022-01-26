@@ -1,7 +1,7 @@
 ## Usage
 
 ```
-node modify-mp4.js <file_path> <duration> [timescale]
+node index.js <file_path> <duration> [timescale]
 ```
 
 [...] means that the argument is optional.
