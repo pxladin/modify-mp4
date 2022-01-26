@@ -1,7 +1,5 @@
 ## Usage
 
----
-
 ```
 node modify-mp4.js <file_path> <duration> [timescale]
 ```
