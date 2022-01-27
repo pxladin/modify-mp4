@@ -33,10 +33,7 @@ if (fs.existsSync(filePath)) {
     } else {
       const offset = i + 4 * 4;
 
-      header = buffer.slice(
-        offset,
-        offset + buffer.readUInt32BE(i + offset - 4),
-      );
+      header = buffer.slice(offset, offset + buffer.readUInt32BE(offset - 4));
 
       break;
     }
